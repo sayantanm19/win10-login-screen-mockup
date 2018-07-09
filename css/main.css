@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    background: url(../images/blurbg2.jpeg);
+    background-size:cover;
+    background-position:center;
+    /*box-shadow: 3px 3px 5px gray;*/
+
+}
+.bg {
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.login-prev button{
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.2);
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 0px 1px;
+
+}
+
+.login-prev button:hover{
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.login {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.profilepic img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.login h1, p {
+    margin: 0;
+    color: aliceblue;
+}
+
+.login p {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+#formpass {
+    display: flex;
+}
+
+.inputx {
+    display: none;
+}
+
+/*Placeholder changes*/
+
+input::-webkit-input-placeholder {
+    font-size: 0.7rem;
+    color: rgb(223, 217, 217);  
+    }
+     
+    input:-moz-placeholder { /* Firefox 18- */
+    font-size: 0.7rem;
+    color: rgb(223, 217, 217);  
+    }
+     
+    input::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 0.7rem;
+    color: rgb(223, 217, 217);  
+    }
+     
+    input:-ms-input-placeholder {  
+    font-size: 0.7rem;
+    color: rgb(223, 217, 217);  
+}
+
+.accesibility {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    color: aliceblue;
+}
+
+.accesibility div {
+    padding: 5px;
+}
+
+.accesibility .power {
+    padding-right: 25px;
+}
